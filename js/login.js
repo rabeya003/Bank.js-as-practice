@@ -3,7 +3,7 @@ document.getElementById('btn-submit').addEventListener('click',function(){
     let email=emailField.value;
     const passwordField=document.getElementById('password');
     let password=passwordField.value;
-    if(email === 'rabeya@gmail.com' && password === 'rabeya'){
+    if(email.includes('@') && password.includes('5')){
         window.location.href='bank.html';
     }
     else{
